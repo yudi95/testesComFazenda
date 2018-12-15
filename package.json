@@ -1,0 +1,29 @@
+{
+  "name": "testescomfazenda",
+  "version": "1.0.0",
+  "description": "aprendendo várias coisas and Jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yudi95/testesComFazenda.git"
+  },
+  "author": "yudi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yudi95/testesComFazenda/issues"
+  },
+  "homepage": "https://github.com/yudi95/testesComFazenda#readme",
+  "keywords": [
+    "jest"
+  ],
+  "dependencies": {
+    "typescript": "^3.2.2"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.5"
+  }
+}

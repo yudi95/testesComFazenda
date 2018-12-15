@@ -18,3 +18,14 @@ npm install @types/jest --save-dev
 
 criar os casos de teste(dica: usar nomes dos arquivos de forma a relacionar o arquivo de teste ccom o arquivo testado);
 segundo.ts - > segundo.test.ts
+
+
+.travis.yml -> para o site trevis-ci.org
+roda os testes no servidor. mostra se Passou ou não.
+então usar o codecov para VVVV
+
+codecov -> verificar a cobertura que os teste tiveram do codigo.
+npm install codecov --save-dev
+
+no .travis.yml
+colocar after_sucess codev

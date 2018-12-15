@@ -1,0 +1,20 @@
+git clone
+npm init
+npm install typescript -g
+npm install typescript
+npm install ts-jest -g
+npm install jest  ts-jest --save-dev
+tsc --init
+ dentro do tsconfig.json pode mudar o es5 ...
+ pakcage.json mudar/adicionar scripts
+
+ 
+ criar pasta test ->
+ criar jest.config.json (pegamos a config do github raccoon do fazendaaa)
+
+criar script no pakcage.json - > "test": "jest --config jest.config.json --ci --runInBand --detectOpenHandles --forceExit"
+
+npm install @types/jest --save-dev
+
+criar os casos de teste(dica: usar nomes dos arquivos de forma a relacionar o arquivo de teste ccom o arquivo testado);
+segundo.ts - > segundo.test.ts

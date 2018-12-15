@@ -10,7 +10,7 @@ describe("testing isPythagoras function", () => {
     })
 
     test("catA = 4, catB = 1, hip = 5", () => {
-        expect(isPythagoras(4, 1, 5)).toEqual(true);
+        expect(isPythagoras(4, 1, 5)).toEqual(false);
     })
 });
 
